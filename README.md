@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Belajar Bahasa Jepang</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>hello world</h1>
-    <p>i'm hosted with github pages.</p>
+    <nav>
+        <div class="">
+        <img src="../praktikumhtml/foto/logojepun.jpg"  alt="logojepun">
+        </div>
+         <ul>
+           <li><a href="#daftar">Daftar</a></li>
+           <li><a href="#login">Log in</a></li>
+        </ul>
+        </nav>
+         <section class="section-foto">
+        <img src="../praktikumhtml/foto/jepang indah.jpg" width="1507" height="750" alt="jepang indah">
+        </section>
+
+    <section class="section-judul">
+        <h1 class="section-judul" style="text-align: center; white-space: nowrap;"> Belajar Bahasa Jepang ! </h1>
+    </section>
+
+    <section class="intro" tyle="text-align: center; white-space: nowrap;">
+        <p>Kami menawarkan lingkungan belajar yang menyenangkan untuk memahami musik Jepang.</p>
+    </section>
+
+    <section class="daftar" tyle="text-align: center; white-space: nowrap;">
+        <p>Daftar dengan Email atau melalui media sosial:</p>
+         </section>
+
+    <section class="tombol">
+        <button style="font-size: 15px; background-color: #be1616; color: white;" >Daftar dengan Email</button>
+        <button style="font-size: 15px; background-color: darkblue; color: white;" >Daftar dengan Facebook</button>
+        <button style="font-size: 15px; background-color: skyblue; color: white">Daftar dengan Twitter</button>
+    </section>
+
+    <section class="kursus" tyle="text-align: center; white-space: nowrap;">
+        <h2>Kursus yang Tersedia</h2>
+        <ul>
+            <li>Tata Bahasa Jepang</li>
+            <li>Kosakata Sehari-hari</li>
+            <li>Percakapan Praktis</li>
+            <li>Sejarah dan Budaya Jepang</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Belajar Bahasa Jepang. Ayo belajar dan berkreasi!</p>
+    </footer>
 </body>
 </html>
